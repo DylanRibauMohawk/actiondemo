@@ -13,4 +13,4 @@ jobs:
     - name: Produce actual.txt output 
       run: python main.py > actual.txt
     - name: Compare expected output to actual output
-      run: diff expected.txt actual.txt
+      run: diff expected2.txt actual.txt
